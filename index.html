@@ -1,0 +1,27 @@
+#to open a window and close after 4 seconds
+
+
+//Create a  function
+
+<script>
+
+function myFunction(){
+          var openWindow = window.open("", "", "width=400, height=400");
+          openWindow.document.write("<p>This 'Works'!</p>");
+          setTimeout(function(){
+                 openWindow.close();
+},4000);
+}
+
+</script>
+
+
+
+//create a button to call the function
+
+
+<button type="button" onclick="myFunction()">Check now</button>
+
+
+
+//Thank you for reading the post. Have a great day!
